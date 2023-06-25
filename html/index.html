@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>POP UP</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="new-user">
+        <h2>Add New User</h2>
+        <button id="add">ADD USER</button>
+      </div>
+      <!-- start Form -->
+      <div class="form" id="form">
+        <div class="inputs">
+          <div>
+            <h4>First Name</h4>
+            <input type="text" placeholder="First Name" id="firstname" />
+          </div>
+
+          <div>
+            <h4>Last Name</h4>
+            <input type="text" placeholder="Last Name" id="lastname" />
+          </div>
+
+          <div>
+            <h4>E-mail</h4>
+            <input type="email" placeholder="E-mail" id="email" />
+          </div>
+
+          <div>
+            <h4>Password</h4>
+            <input type="password" placeholder="Password" id="password" />
+          </div>
+        </div>
+        <div class="img">
+          <h4>YOUR PHOTO</h4>
+          <input type="file" id="imageInput" class="imageInput">
+          <button onclick="uploadImage()">Upload</button>
+        </div>
+        <button id="submit">Submit</button>
+        <button id="close">Close</button>
+        
+      </div>
+      <!-- End Form -->
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

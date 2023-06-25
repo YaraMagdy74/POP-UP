@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h2 {
+  color: #111;
+  font-size: 25px;
+  text-align: center;
+}
+.new-user {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+button {
+  border: 0;
+  background-color: #004d4d;
+  color: #fff;
+  padding: 10px 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 15%);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.img {
+  margin-right: 10px;
+  width: 50%;
+}
+.img h4 {
+  margin: 5px;
+  font-size: 18px;
+}
+.imageInput {
+  border: 0;
+  width: 70%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 25%);
+}
+
+.inputs {
+  width: 40%;
+}
+.inputs h4 {
+  text-align: left;
+  font-size: 15px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 20px 15px 0;
+  outline: 0;
+  border: 0;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 25%);
+  border-radius: 20px;
+}
